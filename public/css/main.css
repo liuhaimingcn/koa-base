@@ -1,0 +1,119 @@
+.container {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.list-group .list-group-item {
+    border-radius: 0px;
+    height: 40px;
+}
+
+.btn {
+    border-radius: 0px;
+    padding: 1px 10px;
+}
+
+#header {
+    height: 40px;
+    background-color: #438EB9;
+    padding-right: 0px;
+}
+
+#header .title {
+    float: left;
+    color: #FFFFFF;
+    font-size: 20px;
+    line-height: 40px;
+    padding-left: 25px;
+}
+
+#header .user {
+    float: right;
+    width: 150px;
+    color: #FFFFFF;
+    font-size: 14px;
+    line-height: 40px;
+    background-color: #62A8D1;
+    cursor: pointer;
+    -moz-user-select: none;
+    padding-left: 5px;
+}
+
+#header .user .glyphicon {
+    float: right;
+    line-height: 40px;
+    font-size: 12px;
+    padding-right: 5px;
+}
+
+#manage {
+    width: 100%;
+    margin-right: -30px;
+    margin-left: 0px;
+    display: none;
+}
+
+#manage .list-group {
+    float: right;
+    width: 150px;
+    margin-top: 40px;
+}
+
+#bar {
+    float: left;
+    position: absolute;
+    top: 40px;
+    bottom: 0px;
+    width: 180px;
+    border-right: 1px solid #62A8D1;
+}
+
+#main {
+    float: right;
+    position: absolute;
+    top: 40px;
+    bottom: 0px;
+    left: 180px;
+    right: 0px;
+}
+
+#main .title {
+    height: 40px;
+    background-color: #F5F5F5;
+    border-bottom: solid 1px #E5E5E5;
+    font-size: 15px;
+    color: #585858;
+    line-height: 40px;
+    padding-left: 20px;
+}
+
+#main .handle {
+    height: 40px;
+    border-bottom: dotted 1px #E5E5E5;
+    padding-left: 20px;
+    padding-top: 8px;
+}
+
+#main .content {
+    height: 90%;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    overflow: auto;
+    overflow-x: hidden;
+}
+
+#main .content table {
+    border: 1px solid #DDDDDD;
+    margin-bottom: 10px;
+}
+
+#main .content .page {
+    text-align: center;
+}
+
+.pagination {
+    margin: 0px;
+}

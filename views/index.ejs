@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>后台管理系统</title>
+    <link rel="stylesheet" href="/public/bower_components/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/public/css/main.css">
+</head>
+<body ng-app="stylink-manage">
+<div class="container">
+    <div class="row">
+        <div class="col-lg-12" id="header">
+            <div class="title">后台管理系统</div>
+            <div class="user" onclick="toggleManage()">
+                <span class="info">欢迎,</span>
+                <span>helloWorld</span>
+                <span class="glyphicon glyphicon-triangle-bottom"></span>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div id="bar">
+            <div class="list-group">
+                <a href="#/specials" class="list-group-item">专题管理</a>
+                <a href="#/pics" class="list-group-item">图片上传</a>
+            </div>
+        </div>
+        <div id="main" ng-view></div>
+    </div>
+</div>
+
+<div class="row" id="manage">
+    <div class="list-group">
+        <a href="javascript:;" class="list-group-item">修改密码</a>
+        <a href="javascript:;" class="list-group-item">退出</a>
+    </div>
+</div>
+
+<script src="/public/bower_components/jquery/dist/jquery.min.js"></script>
+<script src="/public/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="/public/js/main.js"></script>
+
+<script src="/public/bower_components/angular/angular.min.js"></script>
+<script src="/public/bower_components/angular-route/angular-route.min.js"></script>
+<script src="/public/bower_components/angular-resource/angular-resource.min.js"></script>
+<script src="/public/bower_components/angular-paging/dist/paging.min.js"></script>
+<script src="/public/bower_components/plupload/js/plupload.full.min.js"></script>
+<script src="/public/bower_components/qiniu/src/qiniu.min.js"></script>
+
+<script src="/public/js/app.js"></script>
+<script src="/public/js/directives.js"></script>
+<script src="/public/js/filters.js"></script>
+
+<script src="/public/js/controller/special.js"></script>
+
+<script src="/public/js/service/special.js"></script>
+
+</body>
+</html>
